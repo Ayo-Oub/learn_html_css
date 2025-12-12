@@ -9,7 +9,7 @@ import MediaQuery from "./pages/contents/MediaQuery";
 function App() {
   const route = createBrowserRouter([
     {
-      path: "/",
+      path: "/learn_html_css",
       element: <Home />,
       children: [
         { path: "display", element: <Display /> },
@@ -17,7 +17,6 @@ function App() {
         { path: "flexbox", element: <FlexBox /> },
         { path: "grid", element: <Grid /> },
         { path: "media_query", element: <MediaQuery /> },
-        
       ],
     },
   ]);
