@@ -52,7 +52,11 @@ Please change the parent <Route path="${J}"> to <Route path="${J==="/"?"*":`${J}
   border: none;
   border-radius: 5px;
 }
-`,`<textarea class="msg" placeholder="Écris ton message..."></textarea>
+`,`<textarea
+  class="msg"
+  placeholder="Écris ton message..."
+>
+</textarea>
 `,`.msg {
   width: 100%;
   max-height: 200px;
