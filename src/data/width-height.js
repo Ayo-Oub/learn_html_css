@@ -54,7 +54,11 @@ export const codes = [
   border-radius: 5px;
 }
 `,
-  `<textarea class="msg" placeholder="Écris ton message..."></textarea>
+  `<textarea
+  class="msg"
+  placeholder="Écris ton message..."
+>
+</textarea>
 `,
   `.msg {
   width: 100%;
