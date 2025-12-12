@@ -1,0 +1,22 @@
+.sideBar-container{
+     flex-basis: 30%;
+     padding: .8rem;
+     box-shadow: 0 0 2px 1px rgba(0,0,0,0.3);
+}
+.sideBar-container h4{
+     color: var(--color-primary-light);
+}
+.sideBar-container ul{
+     list-style-type: none;
+     margin-top: 1rem;
+}
+.sideBar-container ul li .link{
+     margin-bottom: .5rem;
+     cursor: pointer;
+     color: var(--color-secondary-dark);
+     transition: all 0.3s ease;
+}
+.sideBar-container ul li .link:hover{
+     color: var(--color-secondary);
+     transform: translateX(3px);
+}
