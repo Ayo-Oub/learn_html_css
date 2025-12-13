@@ -52,4 +52,9 @@
     /* 6px / 16px = 37.5% */
     /* 7px / 16px = 43.75% */
   }
+  .code-container {
+  min-width: 30rem;
+  padding: 0.7rem 1.2rem;
+  border-radius: 5px;
+}
 }
